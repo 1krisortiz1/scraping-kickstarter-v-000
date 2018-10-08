@@ -6,10 +6,10 @@ require 'nokogiri'
         # write your code here
         html = File.read('fixtures/kickstarter.html')
         kickstarter = Nokogiri::HTML(html)
-
+binding.pry
         projects = {}
     end
 
-    binding.pry
+    
 
     create_project_hash
