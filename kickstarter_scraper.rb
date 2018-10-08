@@ -8,3 +8,8 @@ require 'nokogiri'
         kickstarter = Nokogiri::HTML(html)
 
         projects = {}
+    end
+
+    binding.pry
+
+    create_project_hash
