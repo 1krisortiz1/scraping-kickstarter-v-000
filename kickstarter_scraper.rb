@@ -7,9 +7,9 @@ require 'nokogiri'
         html = File.read('fixtures/kickstarter.html')
         kickstarter = Nokogiri::HTML(html)
 binding.pry
-        projects = {}
+        #projects = {}
     end
 
-    
+
 
     create_project_hash
